@@ -1,0 +1,218 @@
+
+
+.nav_top {
+    background-color:#A98C6A;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    
+}
+
+.nav_bottom {
+    display: flex;
+    background-color: #AB5F47;
+    padding: 10px;
+    height: 5px;
+
+}
+
+.nav_top a {
+    font-family: helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+   
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4470B8;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+}
+
+.about_page {
+    background-color: #FDFCF9;
+    background-position: center;
+    margin-left:20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 
+    "headline_about headline_about"
+    "about_text my_pic"
+    "resume_button my_pic" 
+    ;
+}
+
+.about_text {
+    width: 400px;
+    margin-left: 30px;
+    grid-area: about_text;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+}
+
+.my_pic {
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 30px;
+    height: 400px;
+    grid-area: my_pic;
+}
+
+.button_container {   
+    grid-area: resume_button;
+    justify-items: center;
+}
+
+button {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #A6CEE9;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    justify-items: center;
+    display: flex;
+}
+
+.skills {
+    background-color:#FDFCF9;
+    background-position: center;
+    height: 700px;
+    margin-left:20px;
+    margin-right: 20px;
+    padding-top: 30px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 20% 30% 30%;
+    grid-template-areas:
+    "skill_header skill_header skill_header"
+    "user_research user_flow visual_design"
+    "tools tools tools"
+}
+
+.headline {
+grid-area: headline_about;
+}
+
+.headline2 {
+    grid-area: skill_header;
+}
+
+.user_research {
+    grid-area: user_research;
+    text-align: center;
+    margin-left: 4px;
+}
+
+.user_flow {
+    grid-area: user_flow;
+    text-align: center;
+}
+
+.visual_design {
+    grid-area: visual_design;
+    text-align: center;
+    margin-right: 4px;
+}
+
+.tools {
+    grid-area: tools;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#AB5F47;
+    font-size: 20px;
+    display: block;
+}
+
+#tools li {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    justify-items: center;
+}
+
+.bottom_bar {
+    display: flex;
+    background-color: #AB5F47;
+    padding: 10px;
+    height: 40px;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    float: center;
+}
+
+.foot {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.foot a{
+        font-family: helvetica, Arial, sans-serif;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 5px;
+        text-align: center;
+        display: inline-block;
+}
+footer {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    float: center;
+    width: 100%;
+}
+
+.copyright_bar {
+    display: flex;
+    background-color: #AB5F47;
+    padding: 10px;
+    height: 40px;
+    justify-items: center;
+    grid-area: links;
+    justify-content: center;
+    float: center;
+
+}
+.copyright_bar a{
+    font-family: helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    text-align: center;
+    display: inline-block;
+}
